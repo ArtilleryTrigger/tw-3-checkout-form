@@ -100,8 +100,85 @@ select{
 }
 #btn-submit{
     float: right;
-    position: relative;
-    justify-content: end;
+    position: absolute;
+    margin-right: -65px;
     border: none;
     outline: none;
+    background-color: #f2994a;
+    border-radius: 10px;
+    padding: 14px 0;
+    color: white;
+    width: 20%;
+    font-weight: 600;
+    text-align: center;
+    right: 0;
+    
+}
+.section-right{
+    position: relative;
+}
+.product-painel{
+    /* position: absolute; */
+    background-color: #eeeeee;
+    border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    margin-left: -170px;
+    margin-right: 350px
+}
+.product{
+    display: flex;
+    position: relative;
+    margin: 10px 0;
+    width: 100%;
+}
+img{
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.product-info{
+    font-family: Mon, Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.product-info h2{
+    font-size: 16px;
+    color: #4E5150;
+    margin: 5px 0;
+}
+.product-info p{
+    font-size: 12px;
+    color:#4E5150;
+    margin: 5px 0;
+}
+.product-info p strong{
+    color: #f2994a;
+    font-size: 16px;
+    font-weight: 600;
+}
+span{
+    text-decoration: line-through;
+}
+.quantity{
+    display: flex;
+    margin-top: 25px;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 5px;
+    justify-content: space-around;
+    width: 50%;
+}
+.quantity button{
+    margin: 5px 0;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.quantity button, p {
+    position: relative;
+    display: block;
+}
+.quantity p{
+    margin: auto 0;
 }
