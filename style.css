@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-section {
+form {
     position: relative;
     margin: 35px 0;
     width: 70%;
@@ -20,5 +20,88 @@ section {
     position: relative;
     left: -30%;
     line-height: 25px;
+    margin-left: 70px;
 }
-
+.section-left h1{
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0 10px 0;
+}
+.small-title {
+    font-size: 12px;
+    color: #4F4F4F;
+    position: relative;
+}
+.input{
+    position: relative;
+    border: 1px solid #828282;
+    padding: 3px 50px 3px 10px;
+    color: #828282;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0;
+}
+.input input{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+.shipping{
+    margin: 50px 0 10px 0;
+}
+.country-post--code{
+    margin: 25px 0 15px 0;
+    display: flex;
+}
+.input-post{
+    position: relative;
+    border: 1px solid #828282;
+    padding: 3px 20px 3px 10px;
+    color: #828282;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 10px;
+}
+.input-post input{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+.post-code-container{
+    position: relative;
+}
+.code-title{
+    padding: 0 0 0 10px;
+}
+select{
+    font-size: 13.33px;
+    font-family: arial,sans-serif;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.container-country{
+    position: relative;
+    border: 1px solid #828282;
+    color: #828282;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+    padding: 7px 0;
+    display:flex;
+}
+#btn-submit{
+    float: right;
+    position: relative;
+    justify-content: end;
+    border: none;
+    outline: none;
+}
