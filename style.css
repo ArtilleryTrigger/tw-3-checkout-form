@@ -182,3 +182,21 @@ span{
 .quantity p{
     margin: auto 0;
 }
+#shipping {
+    margin-top: 50px;
+}
+.buy-detail {
+    margin: 5px 0;
+    border-top: 1px solid #BDBDBD;
+    display: flex;
+    position: relative;
+    width: 90%;
+    font-family: Mon, Arial, Helvetica, sans-serif;
+}
+.buy-detail p {
+    display: block;
+    width: 50%;
+}
+.buy-detail p:nth-child(2){
+    text-align: right;
+}
